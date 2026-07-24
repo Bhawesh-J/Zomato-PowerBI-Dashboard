@@ -7,7 +7,7 @@ This Zomato project analyses the Restaurant data using PowerBI to generate insig
 This Dashboard uses various measures such as DAX calculations and interactive visualization to transform raw data so to generate meaningful insights which may help business gain the understanding of how Restaurants perform.
 
 **DASHBOARD PREVIEW**
-<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/85718cd8-5de9-43dc-bb18-fdd3fdbab71c" />
+<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/6d42aac6-ec7d-420f-b939-b6f66aa1e57a" />
 
 **Tools Used**
 - Microsoft PowerBI
@@ -43,7 +43,8 @@ Provides the summary of the Overall Report.
 - Table Booking vs online order Cost Analysis
 - Ratings and Cost Analysis of Costliest Restaurants
 
-<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/f780319d-f64f-4a8d-866e-efc5ad5019dc" />
+<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/d19ecf16-4709-46a3-b977-8c469d70820f" />
+
 
 **2. Location Analysis**
 
@@ -57,7 +58,7 @@ Analyses Restaurants Performance In the Bangalore Location.
 - Location Wise Average Food Cost
 - Restaurants with Maximum Cuisine Diversity and their Popularity
 
-<img width="1920" height="1080" alt="Location Analysis" src="https://github.com/user-attachments/assets/44641677-5844-4a0e-b801-458e1a01e916" />
+<img width="1920" height="1080" alt="Location Analysis" src="https://github.com/user-attachments/assets/3f5d357f-2bf1-4639-aef8-f402e6c590d4" />
 
 **3. Cuisine Insights**
 
@@ -70,8 +71,7 @@ To get insights on Cuisine and Dishes and their Relationship.
 - Most liked Dishes
 - Restaurants Offering the most Liked Dishes in the Town
 
-<img width="1920" height="1080" alt="Cuisine Insights" src="https://github.com/user-attachments/assets/8ea965ca-94a3-4ed6-914a-e271d14feb90" />
-
+<img width="1920" height="1080" alt="Cuisine Insights" src="https://github.com/user-attachments/assets/6928c857-c050-470a-b4db-f6d12092dfb1" />
 
 **4. Pricing Analysis**
 
@@ -84,7 +84,7 @@ To Analyze how pricing varies by location and how Customer Preference varies.
 - Priciest Restaurant Distribution By Location
 - Price and Vote Relationship In Priciest Locations
 
-<img width="1920" height="1080" alt="Pricing Analysis" src="https://github.com/user-attachments/assets/2d7d0636-218c-4070-8c19-811603920e47" />
+<img width="1920" height="1080" alt="Pricing Analysis" src="https://github.com/user-attachments/assets/e87759b4-3ecb-4faa-b1a0-1648ed9d7a56" />
 
 ## **Data Modelling and Calculations**
 
@@ -112,11 +112,11 @@ Rest. with online order = CALCULATE(DISTINCTCOUNT(fact_table[name]), (fact_table
 
 ## **Key Insights**
 
-- North Indian Cuisine is the Most Offered Cuisine in the Bangalore Region Indicating that it has a high Popularity among region, but the top 5 dishes liked are not North Indian.
-- Ratings are Directly proportional to number of votes.Also we can see that as the cost of the food increases, ratings tends to increase which is surprising, as votes and ratings have a generally directly proportional
-  relationship from the graph. Also after a certain threshold of food price which is like 1500-1700, most ratings are in the range of 4+ which means that at this and above price range, the food quality and services are
-  typically similar to restaurants offering food at higher prices.  
-- Also most popular outlets are the one where price range is less than 3000 rupees.
+- North Indian Cuisine is the Most Offered Cuisine in Bangalore Indicating that it has a high Popularity in the region, but the top 5 dishes liked are not North Indian.
+- A strong relationship cannot be developed between Ratings and Votes.
+- We can see that as the cost of the food increases, ratings generally tend to increase. Also after a certain threshold of food price which is like 1500-1700, most ratings are in the range of 4+ which
+  means that at this and above price range, the food quality and services are typically similar to restaurants offering food at higher prices.  
+- Also most popular outlets are the one where price range is less than 2500 rupees. Also Votes significantly decrease as the price climbs higher than 3000 rupees.
 - The priciest location tend to have high ratings while less votes meaning that the locations offer better food, but are less popular.
 - The Restaurants offering table booking tend to be 2x more costly than one that are offering online orders which could mean that the restaurants might be very busy as charging 2x the price is something that many
   restaurants don't do. 
