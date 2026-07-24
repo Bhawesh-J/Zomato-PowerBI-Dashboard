@@ -10,7 +10,7 @@ ORDER BY votes DESC
 LIMIT 5;
 
 -- ========================================================================================
--- Question 2: What is the highest rated restaurant and in which locality/area.
+-- Question 2: What is the highest rated restaurant.
 -- ========================================================================================
 SELECT 
     name, ratings, votes
