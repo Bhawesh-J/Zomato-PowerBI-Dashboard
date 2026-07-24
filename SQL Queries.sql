@@ -29,7 +29,7 @@ FROM
     customer_data;
 
 -- ========================================================================================
--- Question 4:	What place has the highest number unique of restaurants
+-- Question 4:	Which place has the highest number of unique restaurants.
 -- ========================================================================================
 
 SELECT 
@@ -85,7 +85,7 @@ ORDER BY avg_rating DESC , avg_votes
 LIMIT 10;
 
 -- ========================================================================================
--- Question 8:	Which restaurant has the highest number of cuisines types to offer.
+-- Question 8:	Which restaurant has the highest number of cuisines types to offer(in a single listing/branch).
 -- ========================================================================================
 
 SELECT
@@ -97,7 +97,7 @@ ORDER BY total_cuisines DESC
 LIMIT 5;
 
 -- ========================================================================================
--- Question 9:	Which restaurant has a highest no. of dishes liked.
+-- Question 9:	Which restaurant has a highest no. of dishes liked(in a single listing/branch).
 -- ========================================================================================
 
 SELECT 
