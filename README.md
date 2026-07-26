@@ -18,6 +18,8 @@ This Dashboard uses various measures such as DAX calculations and interactive vi
 
 ## **DATASET**
 
+https://github.com/Bhawesh-J/Zomato-PowerBI-Dashboard/blob/main/Zomato_cleaned_data.csv
+
 The dataset contains various columns including:
 - Restaurant Name
 - Table Booking
@@ -113,8 +115,8 @@ Rest. with online order = CALCULATE(DISTINCTCOUNT(fact_table[name]), (fact_table
 ## **Key Insights**
 
 - North Indian Cuisine is the Most Offered Cuisine in Bangalore Indicating that it has a high Popularity in the region, but the top 5 dishes liked are not North Indian.
-- A strong relationship cannot be developed between Ratings and Votes.
-- We can see that as the cost of the food increases, ratings generally tend to increase. Also after a certain threshold of food price which is like 1500-1700, most ratings are in the range of 4+ which
+- A strong relationship cannot be established between Ratings and Votes.
+- We can see that as the cost of the food increases, ratings generally tend to increase. Also after a certain threshold of food price which is 1500-1700, most ratings are in the range of 4+ which
   means that at this and above price range, the food quality and services are typically similar to restaurants offering food at higher prices.  
 - Also most popular outlets are the one where price range is less than 2500 rupees. Also Votes significantly decrease as the price climbs higher than 3000 rupees.
 - The priciest location tend to have high ratings while less votes meaning that the locations offer better food, but are less popular.
