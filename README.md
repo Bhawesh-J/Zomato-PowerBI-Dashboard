@@ -2,12 +2,13 @@
 
 **Project Overview**
 
-This Zomato project analyses the Restaurant data using PowerBI to generate insights about the Cuisines, Dishes, Restaurants and Customer performance across various Locations in Bangalore City.
+This Zomato project analyses the Restaurant data by working on around 19000 rows using SQL and PowerBI to generate insights about the Cuisines, Dishes, Restaurants and Customer performance across various Locations in Bangalore City.
 
 This Dashboard uses various measures such as DAX calculations and interactive visualization to transform raw data so to generate meaningful insights which may help business gain the understanding of how Restaurants perform.
 
 **DASHBOARD PREVIEW**
-<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/6d42aac6-ec7d-420f-b939-b6f66aa1e57a" />
+<img width="1603" height="899" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/b22c09ed-dcc6-4d1c-ad22-32dc326f8402" />
+
 
 **Tools Used**
 - Microsoft PowerBI
@@ -44,25 +45,11 @@ Provides the summary of the Overall Report.
 - Top Rated Restaurants
 - Table Booking vs online order Cost Analysis
 - Ratings and Cost Analysis of Costliest Restaurants
+- Price and Vote Relationship in Priciest Locations
 
-<img width="1920" height="1080" alt="Overview" src="https://github.com/user-attachments/assets/d19ecf16-4709-46a3-b977-8c469d70820f" />
+<img width="1603" height="899" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/5681741a-c01b-48e8-84d9-0c3cdf1a3096" />
 
-
-**2. Location Analysis**
-
-**Purpose:**
-Analyses Restaurants Performance In the Bangalore Location.
-
-**Includes**
-
-- Restaurants Offering Online Services
-- Average Rating vs Minimum Rating in a Location
-- Location Wise Average Food Cost
-- Restaurants with Maximum Cuisine Diversity and their Popularity
-
-<img width="1920" height="1080" alt="Location Analysis" src="https://github.com/user-attachments/assets/3f5d357f-2bf1-4639-aef8-f402e6c590d4" />
-
-**3. Cuisine Insights**
+**2. Cuisine Insights**
 
 **Purpose:**
 To get insights on Cuisine and Dishes and their Relationship.
@@ -72,21 +59,10 @@ To get insights on Cuisine and Dishes and their Relationship.
 - Most Offered Cuisines
 - Most liked Dishes
 - Restaurants Offering the most Liked Dishes in the Town
+- Location Wise Average Food Cost
+- Votes and Ratings Relationship
 
-<img width="1920" height="1080" alt="Cuisine Insights" src="https://github.com/user-attachments/assets/6928c857-c050-470a-b4db-f6d12092dfb1" />
-
-**4. Pricing Analysis**
-
-**Purpose:**
-To Analyze how pricing varies by location and how Customer Preference varies.
-
-**Includes**
-
-- Average Ratings By Votes and Cost
-- Priciest Restaurant Distribution By Location
-- Price and Vote Relationship In Priciest Locations
-
-<img width="1920" height="1080" alt="Pricing Analysis" src="https://github.com/user-attachments/assets/e87759b4-3ecb-4faa-b1a0-1648ed9d7a56" />
+<img width="1602" height="900" alt="Cuisine Insight" src="https://github.com/user-attachments/assets/cf711450-2237-4c54-917a-396ba108793b" />
 
 ## **Data Modelling and Calculations**
 
